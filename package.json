@@ -1,0 +1,32 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+  "build": "babel src/platzom.js -d dist",
+  "test": "mocha"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franjo1/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "Fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Franjo Urbina <franjo.uh@gmail.com> (https://twitter.com/franjourbina)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franjo1/platzom/issues"
+  },
+  "homepage": "https://github.com/franjo1/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
